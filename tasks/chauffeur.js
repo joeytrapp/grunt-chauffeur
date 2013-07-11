@@ -8,6 +8,6 @@ module.exports = function(grunt) {
     chauffeur(this.data, function() {
       grunt.log.write("Dev server running on port " + this.data.port + "\n");
       done();
-    });
+    }.bind(this));
   });
 };
