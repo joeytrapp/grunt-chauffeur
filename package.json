@@ -1,7 +1,7 @@
 {
   "name": "grunt-chauffeur",
   "description": "Configurable delivery tool for grunt build files and backend servers",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "homepage": "https://github.com/joeytrapp/grunt-chauffeur",
   "author": {
     "name": "Joey Trapp",
@@ -40,6 +40,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "chauffeur": "~0.2.11"
+    "chauffeur": "~0.2.12"
   }
 }
