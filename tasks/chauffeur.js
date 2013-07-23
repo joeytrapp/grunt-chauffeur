@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
   var chauffeur = require('chauffeur'),
       lockable = require('../lib/lockable'),
-      desc = 'Start a dev server that handles test runner url and proxies requests',
+      desc = 'Start a dev server that handles test runner url and proxies requests';
 
   grunt.registerMultiTask('chauffeur', desc, function() {
     var lockName = this.name + '.lock', done;
