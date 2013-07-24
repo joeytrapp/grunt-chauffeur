@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     // Check user supplied data for a name for the lock file
     // to support multiple lockable chauffeur servers
     if (typeof this.data.lockfile === 'string') {
-      lockName = this.data.locks;
+      lockName = this.data.lockfile;
     }
 
     if (this.flags.lock) {
